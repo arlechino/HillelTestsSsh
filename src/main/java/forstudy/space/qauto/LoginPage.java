@@ -4,6 +4,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
@@ -17,6 +18,8 @@ public class LoginPage {
 
 
 
+//    @FindBy(css = ".modal-header")
+//    private WebElement modalWindow;
 
 //    Найти и описать UI Элементы для взаимодействия
     String modalWindow = ".modal-header";
